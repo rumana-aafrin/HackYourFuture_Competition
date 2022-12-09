@@ -1,0 +1,151 @@
+body {
+  /*setting font family*/
+  font-family: calibri;
+}
+#coloring {
+  /*Style formatting for header 2*/
+  float: left;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+#coloring::first-letter {
+  /*Pseudo Element*/
+  background-color: rgb(61, 139, 255);
+  color: white;
+}
+table {
+  /*Table style properties for the navigation menu*/
+  float: right;
+  width: 50%;
+  padding-top: 30px;
+}
+a {
+  /*Anchor element used for href property*/
+  text-decoration: none;
+}
+a:hover {
+  /*Hover styling to change color during mouse over*/
+  color: red;
+}
+
+h1 {
+  /*Style formatting for header 1*/
+  clear: left;
+  float: left;
+  padding-left: 30px;
+}
+.highlighter {
+  /*Color change for span element*/
+  color: rgb(61, 139, 255);
+}
+#first-para {
+  /*Styling for first para with space between the lines*/
+  float: right;
+  width: 30%;
+  line-height: 1.2em;
+  font-family: calibri;
+}
+
+.pic {
+  /*Background image styling*/
+  height: auto;
+  width: 100%;
+}
+.image-text {
+  /*Styling for text on the Background image*/
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  z-index: 2;
+  line-height: 1.5em;
+  font-family: helvetica, "sans-serif";
+  font-weight: bold;
+  text-align: left;
+}
+
+#parent1 {
+  /*Styling for the parent 1 elements*/
+  margin: 2%;
+  font-family: calibri;
+}
+/*Width is set for all div1,div2 and div3 to have equal space*/
+#div1 {
+  width: 33.33%;
+  float: left;
+}
+#div2 {
+  width: 33.33%;
+  float: right;
+}
+#div3 {
+  width: 33.33%;
+  margin: 40px auto;
+}
+#parent2 {
+  /*Styling for the parent 2 elements*/
+  margin: 2%;
+  font-family: calibri;
+}
+/*Width is set for all div1,div2 and div3 to have equal space*/
+#div4 {
+  width: 33.33%;
+  float: right;
+}
+#div5 {
+  width: 33.33%;
+  float: left;
+}
+#div6 {
+  width: 33.33%;
+  margin: 40px auto;
+}
+#div-img {
+  /*Size setting for all Image Logos*/
+  width: 50px;
+}
+#div-span {
+  /*Text style setting for all text under the Image logo*/
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/*Color and text setting for the footer element*/
+#footer {
+  background-color: rgba(21, 91, 188, 255);
+  overflow: hidden;
+  width: 100%;
+  color: rgba(173, 197, 232, 255);
+}
+.footer-text {
+  background-color: rgba(255, 243, 205, 255);
+  text-align: center;
+  color: rgba(107, 83, 10, 255);
+}
+.heading {
+  /*Style setting for all footer element headings*/
+  font-weight: bold;
+  line-height: 3em;
+  color: rgba(250, 252, 254, 255);
+}
+/*All footer elements are set with fixed width to align on the same row*/
+.footer-column1 {
+  width: 18%;
+  float: left;
+  margin-left: 2%;
+}
+.footer-column2 {
+  width: 18%;
+  float: left;
+}
+.footer-column3 {
+  width: 18%;
+  float: left;
+}
+.footer-column4 {
+  width: 18%;
+  float: left;
+}
+.footer-column5 {
+  width: 18%;
+  float: left;
+}
